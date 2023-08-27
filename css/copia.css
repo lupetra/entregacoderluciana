@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@100;200&display=swap');
 
 
-
+/**MAIN**/
 main { 
     font-size: 16px;
     font-family: "Roboto";
@@ -13,7 +13,7 @@ main {
     font-weight: 800;
 }
 
-
+/**header**/
 header nav  {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -75,13 +75,34 @@ main .textoHomesecundario {
 }
 
 
-
+/**cards**/
 main .cardProyecto .card-text {
     font-size: 15px;
 }
 
 
+.cardProyecto {
+    background-color: lightslategray;
+}
 
+
+.cardProyecto img {
+    height: 150px; 
+    object-fit: cover
+}
+
+.cardProyecto {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    
+}
+
+
+.cardProyecto img {
+    height: 150px; 
+    object-fit: cover
+}
 
 .btn-lg {
     background-color: aqua;
@@ -94,23 +115,6 @@ main .cardProyecto .card-text {
 }
 
 
-
-.cardProyecto {
-    background-color: lightslategray;
-}
-
-
-.cardProyecto {
-    display: flex;
-    margin-top: 40px;
-    justify-content: space-around;
-    
-}
-
-.cardProyecto img {
-    height: 150px; 
-    object-fit: cover
-}
 
 .visitanosWeb {
     text-align: center;
