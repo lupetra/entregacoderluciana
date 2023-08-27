@@ -1,0 +1,40 @@
+header {
+    nav {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+
+        ul {
+            color: rgb(9, 9, 9);
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+            justify-content: space-around;
+
+            li a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: lightsteelblue;
+                justify-content: flex-end;
+            }
+        }
+
+        img {
+            width: 8rem;
+        }
+
+        .botonHeader {
+            justify-content: right;
+            text-decoration: none;
+            color: #4a4a4a;
+            background-color: rgb(86, 123, 155);
+            border-radius: 12px;
+            padding: 8px;
+            transition: .4s;
+
+            &:hover {
+                background-color: rgb(118, 118, 118);
+            }
+        }
+    }
+}
