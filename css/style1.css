@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@100;200&display=swap");
+.carousel-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+main {
+  font-size: 16px;
+  font-family: "Roboto";
+  background-color: lightslategray !important;
+}
+main .tituloPrincipal {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+main .textoHomesecundario {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+main .cardProyecto .card-text {
+  font-size: 15px;
+}
+
+header nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+header nav ul {
+  color: rgb(9, 9, 9);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  justify-content: space-around;
+}
+header nav ul li a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: lightsteelblue;
+  justify-content: flex-end;
+}
+header nav img {
+  width: 8rem;
+}
+header nav .botonHeader {
+  justify-content: right;
+  text-decoration: none;
+  color: #4a4a4a;
+  background-color: rgb(86, 123, 155);
+  border-radius: 12px;
+  padding: 8px;
+  transition: 0.4s;
+}
+header nav .botonHeader:hover {
+  background-color: rgb(118, 118, 118);
+}
+
+.contactoReservar {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.botonPrincipal {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 8px;
+  border-radius: 3%;
+  margin-left: 50px;
+}
+
+#formulario {
+  background-color: #4a4a4a;
+  color: #b0b0b0;
+  font-size: 1.2rem;
+  padding-left: 2%;
+}
+
+h1 {
+  font-size: 3.8rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2.8rem;
+  color: #b0b0b0;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.cardImagen {
+  margin-top: 20px;
+}
+.cardImagen img {
+  object-fit: cover;
+  height: 300px;
+}
+
+.mapaLugar {
+  width: 100%;
+  grid-area: mapa;
+}
+
+.footer {
+  grid-area: footer;
+  width: 100%;
+  background-color: #4a4a4a;
+}
+.footer a {
+  text-decoration: none;
+  color: #d8d8d8;
+}
+.footer img {
+  padding-bottom: 20px;
+}
+
+.grid-container {
+  margin: 60px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: repeat(5, 100%);
+  grid-template-areas: "texto imagenes1" "imagenes2 texto2" "mapa mapa" "informacionContacto informacionContacto" "footer footer";
+}
+.grid-container .imagenesCasas2 {
+  grid-area: imagenes2;
+  margin-right: 20px;
+}
+.grid-container .imagenesCasas2 img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.grid-container .imagenesCasas1 {
+  grid-area: imagenes1;
+  margin-left: 20px;
+}
+.grid-container .imagenesCasas1 img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+.grid-container .bloqueUno {
+  margin-top: 20px;
+}
+.grid-container .texto2 {
+  grid-area: texto2;
+}
+.grid-container .informacionContacto {
+  grid-area: informacionContacto;
+  z-index: 4000;
+}
+.grid-container .texto {
+  grid-area: texto;
+}
+
+.chatPrincipal {
+  width: 5rem;
+  height: 5rem;
+  z-index: 999999;
+  position: fixed;
+  bottom: 1.3rem;
+  right: 1.2rem;
+}
+
+.chat {
+  width: 5rem;
+  height: 5rem;
+}
+
+.cardProyecto {
+  background-color: lightslategray;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.cardProyecto img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.visitanosWeb {
+  text-align: center;
+}
+
+.horariosOpcion {
+  display: block;
+}
+
+.btn-lg {
+  background-color: aqua;
+  padding: 12px;
+}
+
+/*# sourceMappingURL=style1.css.map */
